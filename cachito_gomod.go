@@ -1,7 +1,7 @@
 package cachitoGomodTest
 
-import "rsc.io/quote"
+import "rsc.io/quote/v3"
 
 func CachitoGomodTest() string {
-    return quote.Hello()
+	return quote.Hello()
 }
